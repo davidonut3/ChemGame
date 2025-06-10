@@ -10,3 +10,4 @@ SCREEN_HEIGHT = 800
 ASSETS = 'iron/assets/'
 
 BRICK_WALL = pygame.image.load(ASSETS + 'backgrounds/brick_wall.png')
+BRICK_WALL_BLURRED = pygame.image.load(ASSETS + 'backgrounds/brick_wall_blurred.png')

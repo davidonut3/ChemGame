@@ -1,0 +1,3 @@
+brick_wall.png: Created manually in paint
+
+brick_wall_blurred.png: Created in Gimp using Filters -> Blur -> Gaussian Blur: x = 5, y = 5

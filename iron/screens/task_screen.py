@@ -2,7 +2,7 @@ from config import *
 
 class TaskScreen:
     def __init__(self):
-        self.background = BRICK_WALL
+        self.background = BRICK_WALL_BLURRED
         self.surface = pygame.surface.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
 
     def draw(self):
