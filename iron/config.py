@@ -6,3 +6,7 @@ import pygame
 
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 800
+
+ASSETS = 'iron/assets/'
+
+BRICK_WALL = pygame.image.load(ASSETS + 'backgrounds/brick_wall.png')
