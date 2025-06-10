@@ -3,10 +3,10 @@ from ui.button import Button
 
 class Machine1:
     def __init__(self):
-        self.background = BRICK_WALL_BLURRED
+        self.background = BRICK_WALL_WINDOWS_BLURRED
         self.surface = pygame.surface.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-        self.rect = pygame.rect.Rect(200, 100, 400, 1100)
+        self.rect = pygame.rect.Rect(250, 100, 700, 600)
 
         rect = pygame.rect.Rect(300, 600, 200, 50)
         self.button = Button(rect, CONSOLAS_20, 'Create compound', Color.BUTTON)

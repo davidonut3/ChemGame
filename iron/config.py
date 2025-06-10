@@ -18,6 +18,8 @@ CONSOLAS_20 = pygame.font.SysFont('Consolas', 20)
 
 BRICK_WALL = pygame.image.load(ASSETS + 'backgrounds/brick_wall.png')
 BRICK_WALL_BLURRED = pygame.image.load(ASSETS + 'backgrounds/brick_wall_blurred.png')
+BRICK_WALL_WINDOWS = pygame.image.load(ASSETS + 'backgrounds/brick_wall_windows.png')
+BRICK_WALL_WINDOWS_BLURRED = pygame.image.load(ASSETS + 'backgrounds/brick_wall_windows_blurred.png')
 
 class Color:
     BLACK = 'black'
